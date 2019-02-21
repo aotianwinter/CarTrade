@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 81" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M25 24h9v5h-9z"/>
+    <mask id="h" width="9" height="5" x="0" y="0" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <path id="b" d="M25 13h9v5h-9z"/>
+    <mask id="i" width="9" height="5" x="0" y="0" fill="#fff">
+      <use xlink:href="#b"/>
+    </mask>
+    <path id="c" d="M0 18l10.5-6.1337891L21 18v16H0z"/>
+    <mask id="j" width="21" height="22.1337891" x="0" y="0" fill="#fff">
+      <use xlink:href="#c"/>
+    </mask>
+    <path id="d" d="M4 22h13v12H4z"/>
+    <mask id="k" width="13" height="12" x="0" y="0" fill="#fff">
+      <use xlink:href="#d"/>
+    </mask>
+    <path id="e" d="M37 24h7v10h-7z"/>
+    <mask id="l" width="7" height="10" x="0" y="0" fill="#fff">
+      <use xlink:href="#e"/>
+    </mask>
+    <path id="f" d="M19 9L35.5.68359375 52 9v25H19z"/>
+    <mask id="m" width="33" height="33.3164062" x="0" y="0" fill="#fff">
+      <use xlink:href="#f"/>
+    </mask>
+    <path id="g" d="M28 36h16v2H28z"/>
+    <mask id="n" width="16" height="2" x="0" y="0" fill="#fff">
+      <use xlink:href="#g"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g stroke="#FFF" stroke-width="4" transform="translate(13 21)">
+      <use mask="url(#h)" xlink:href="#a"/>
+      <use mask="url(#i)" xlink:href="#b"/>
+      <use mask="url(#j)" xlink:href="#c"/>
+      <use mask="url(#k)" xlink:href="#d"/>
+      <use mask="url(#l)" xlink:href="#e"/>
+      <use mask="url(#m)" xlink:href="#f"/>
+      <use mask="url(#n)" xlink:href="#g"/>
+    </g>
+    <path stroke="#FFF" stroke-width="2" d="M50.68997896 3.06445688c-12.90752135-3.45855992-26.03892197.00097335-35.4573952 8.1056835C9.5140991 16.0909657 5.16434316 22.7241828 3.06445692 30.56106485.78096716 39.0831647 1.51321767 47.70285812 4.6070323 55.28707872c4.43711547 10.87720724 13.73172907 19.62455185 25.95403258 22.8995082 9.26136444 2.48157513 18.63798865 1.4015051 26.67561818-2.40059585 9.96574683-4.71417297 17.87303288-13.6129731 20.94990392-25.09601214 2.87304646-10.72235536.97210745-21.5992036-4.39987397-30.37378087"/>
+    <path fill="#FFF" d="M73.7131561 18.51898725l11.41904964 4.15619417-15.5752438 7.26285546"/>
+  </g>
+</svg>

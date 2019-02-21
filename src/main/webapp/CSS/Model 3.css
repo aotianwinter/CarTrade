@@ -1,0 +1,53 @@
+/* CSS Document */
+p{
+	color:rgb(102,102,102);
+}
+h1{
+	margin:0px;
+}
+div#one{
+	background:black;
+	}
+div#video{
+	width:1000px;
+	margin:0 auto;
+	}
+div#two{
+	background:rgb(247,247,247);
+	}
+div#two-top{
+	width:700px;
+	margin:0 auto;
+	padding-top:50px;
+	}
+div#two-top-h{
+	padding-bottom:20px;
+	text-align:center;
+	}
+div#two-body{
+	width:700px;
+	height:365px;
+	margin:0 auto;
+	background:url(../img/Model%203/7.png) no-repeat;
+	background-size:100%;
+	}
+div#two-bottom{
+	width:400px;
+	text-align:center;
+	margin:0 auto;
+	padding-bottom:50px;
+	}
+p#black{
+	color:black;
+	}
+span#big{
+	font-size:30px;
+	}
+#three{
+	width:1000px;
+	margin:0 auto;
+	background:egb(247,247,247);
+	}
+#three>img:not(:first-child){ 
+	display:none; 
+	}

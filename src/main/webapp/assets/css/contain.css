@@ -1,0 +1,30 @@
+#body-right h2{
+	margin: 0;
+	padding: 20px 20px;
+}
+
+#body-right table{
+	margin: 20px 40px;
+}
+
+#body-right a{
+	color:blue;
+}
+
+#car_pager{
+	display: table;
+	float: right;
+	margin-right: 150px;
+}
+
+#customer_pager{
+	display: table;
+	float: right;
+	margin-right: 150px;
+}
+
+#order_pager{
+	display: table;
+	float: right;
+	margin-right: 150px;
+}

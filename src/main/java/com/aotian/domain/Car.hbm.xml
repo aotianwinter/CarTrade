@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-6-12 9:55:16 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.aotian.domain.Car" table="CAR">
+        <id name="carId" type="java.lang.Integer">
+            <column name="CARID" />
+            <generator class="native" />
+        </id>
+        <property name="carNo" type="java.lang.String">
+            <column name="CARNO" />
+        </property>
+        <property name="carName" type="java.lang.String">
+            <column name="CARNAME" />
+        </property>
+        <property name="carModel" type="java.lang.String">
+            <column name="CARMODEL" />
+        </property>
+        <property name="carPrice" type="java.lang.Integer">
+            <column name="CARPRICE" />
+        </property>
+        <property name="carAdress" type="java.lang.String">
+            <column name="CARADRESS" />
+        </property>
+        <property name="carAmount" type="java.lang.Integer">
+            <column name="CARAMOUNT" />
+        </property>
+        <property name="carCreateTime" type="java.util.Date">
+            <column name="CARCREATETIME" />
+        </property>
+    </class>
+</hibernate-mapping>

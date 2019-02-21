@@ -1,0 +1,40 @@
+/* CSS Document */
+div#body{
+	height:520px;
+	width:100%;
+	background:url(../img/2.jpg) no-repeat;
+	background-size:100%;
+	position:relative;
+	color:rgb(255,255,255);
+	}
+div#body-contain{
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	}
+div#body-one{
+	margin:0 auto;
+	padding-top:20px;
+	font-size:36px;
+	}
+div#body-two{
+	margin:0 auto;
+	padding:5px 0;
+	}
+div#body-three{
+	width:1000px;
+	margin:0 auto;
+	padding-top:20px;
+	text-align:center;
+	}
+div#body-three a{
+	display:inline;
+	font-size:14px;
+	padding:10px 60px;
+	margin:0 5px;
+	background:rgba(0,0,0,0.7);
+	border:1px solid rgba(0,0,0,0.7);
+	}
+#body-three a:hover{
+	border:1px solid white;
+	}

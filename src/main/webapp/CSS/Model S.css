@@ -1,0 +1,139 @@
+/* CSS Document */
+p{
+	color:rgb(102,102,102);
+}
+h1{
+	margin:0px;
+}
+div#one{
+	height:470px;
+	background:url(../img/Model%20S/1.jpg) no-repeat;
+	background-size:100%;
+	color:white;
+	}
+div#one-top{
+	height:110px;
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+	}
+div#one-left{
+	font-size:24px;
+	position:absolute;
+	top:40px;
+	left:0;
+		}
+div#one-right{
+	font-size:14px;
+	position:absolute;
+	top:50px;
+	right:0;
+	}
+span.one-margin{
+	margin-left:1.5em;
+	}
+div#one-hr{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:1000px;
+	}
+div#two{
+	height:610px;
+	}
+div#two-h{
+	text-align:center;
+	margin:50px auto;
+	}
+div#two-p{
+	width:680px;
+	margin:50px auto;
+	}
+div#two-body{
+	width:1000px;
+	margin:0 auto;
+	}
+div#two-left{
+	width:400px;
+	float:left;
+	}
+div#two-right{
+	width:400px;
+	float:right;
+	}
+div#two-left-img{
+	height:190px;
+	background:url(../img/Model%20S/6.jpg) no-repeat;
+	background-size:100%;
+	}
+div#two-right-img{
+	height:190px;
+	background:url(../img/MOdel%20s/7.jpg) no-repeat;
+	background-size:100%;
+	}
+#three>img:not(:first-child){ 
+	display:none; 
+	}
+div#three{
+	height:468px;
+	background:url(../img/Model%20S/3.jpg) no-repeat;
+	background-size:100%;
+	}
+div#four{
+	height:250px;
+	padding-top:40px;
+	background:rgb(247,247,247);
+	}
+div#four-h{
+	width:675px;
+	text-align:center;
+	margin:0 auto;
+	}
+div#four-p{
+	width:675px;
+	margin:50px auto;
+	}
+div#five{
+	height:610px;
+	background:url(../img/Model%20S/5.jpg) no-repeat;
+	background-size:100%;
+	}
+div#six-top{
+	width:1000px;
+	text-align:center;
+	margin:0 auto;
+	padding-top:30px;
+	}
+div#six-body{
+	width:1000px;
+	height:1100px;
+	margin:0 auto ;
+	}
+div#six-body-left{
+	width:400px;
+	float:left;
+	}
+div#six-body-left-img-one{
+	background:url(../img/Model%20S/8.png) no-repeat;
+	background-size:100%;
+	height:455px;
+	width:400px;
+	}
+div#six-body-left-img-two{
+	background:url(../img/Model%20S/9.png) no-repeat;
+	background-size:100%;
+	height:280px;
+	width:400px;
+	}
+div#six-body-right-one{
+	width:250px;
+	float:left;
+	}
+div#six-body-right-two{
+	width:250px;
+	float:right;
+	}
+span.red{
+	color:rgb(204,0,0);
+	display:block;
+	}

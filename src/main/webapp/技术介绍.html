@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>技术介绍</title>
+<script type="text/javascript">
+function getDT(){
+	var now = new Date();
+	var y,M,d,h,m,s,str;
+	y=now.getFullYear();
+	M=now.getMonth()+1;
+	d=now.getDate();
+	h=now.getHours();
+	h=h<10?"0"+String(h):h;
+	m=now.getMinutes();
+	m=m<10?"0"+String(m):m;
+	s=now.getSeconds();
+	s=s<10?"0"+String(s):s;
+	str=y+"年"+M+"月"+d+"日"+h+":"+m+":"+s;
+	document.getElementById("nowDT").innerHTML=str;
+	}
+function startup(){
+	setInterval("getDT()",1000);
+	}
+</script>
+<link rel="icon" href="2.ico" type="image/x-ico"/>
+<link href="CSS/技术介绍.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="startup()">
+
+<div id="top">
+	<div id="time">当前时间：<span id="nowDT"></span></div>
+    <div id="navi">
+	<ul id="menu">
+        <li><a href="#">个人首页</a>
+            <ul>
+                <li><a href="技术介绍.html">Refresh</a></li>
+                <li><a href="#">BOTTOM</a></li>
+            </ul>
+        </li>
+        <li><a href="#">基础知识</a>
+            <ul>
+                <li><a href="http://www.w3school.com.cn/html/index.asp" target="_blank">HTML</a></li>
+                <li><a href="http://www.w3school.com.cn/css/index.asp" target="_blank">CSS</a></li>
+                <li><a href="http://www.w3school.com.cn/js/index.asp" target="_blank">JS</a></li>
+            </ul>
+        </li>
+        <li><a href="#">优秀作品</a>
+            <ul>
+                <li><a href="#">学习网站</a></li>
+                <li><a href="#">电影网站</a></li>
+                <li><a href="#">艺术作品</a></li>
+                <li><a href="#">美食推荐</a></li>
+            </ul>
+        </li>
+        <li><a href="#">友情链接</a>
+            <ul>
+                <li><a href="http://www.baidu.com/" target="_blank">百度</a></li>
+                <li><a href="http://www.youku.com/" target="_blank">优酷</a></li>
+                <li><a href="https://www.tesla.cn/" target="_blank">Tesla</a></li>
+            </ul>
+        </li>
+    </ul>
+	</div>
+</div>
+
+<div id="body">
+	<div id="body-bg">
+    	           
+    </div>
+</div>
+
+<div id="right">
+	<div id="left">
+    	<h4>主要应用技术</h4>
+    	<ul>
+        	<li>下拉菜单</li>
+            <li>时间显示</li>
+            <li>图片轮播</li>
+        	<li>HTML标签</li>
+        	<li>JS实现动态效果</li>
+            <li>DIV+CSS界面布局</li>
+        </ul>
+    </div>
+    <div id="right-li">
+        <ul>
+        	<li><a href="../index.html">个人网页</a></li>
+            <li><a href="技术介绍.html">技术介绍</a></li>
+            <li><a href="Tesla.html" target="_blank">Tesla网站</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="Bottom">
+<div id="Bottom-1">
+	<div id="Bottom-2">
+    Personal web sites © 2016&nbsp | &nbsp 四川成都 &nbsp | &nbsp 隐私&法律 &nbsp | &nbsp 联系人信息 &nbsp | &nbsp 工作机会 &nbsp |  &nbsp 中国
+    </div>
+</div>
+<div id="Bottom-3"></div>
+</div>
+</body>
+</html>

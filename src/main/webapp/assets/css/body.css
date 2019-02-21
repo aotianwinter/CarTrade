@@ -1,0 +1,31 @@
+#body{
+	height: 1000px;
+}
+#body-left{
+	background:rgb(9,25,42);
+	width:210px;
+	height: 1000px;
+	float: left;
+	position:absolute; 
+	left:0;
+	}
+#body-right{
+	background:rgb(229,235,242);
+	height: 1000px;
+	margin-left: 210px;
+	font-family: 宋体;
+}
+#body-left ul{
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+#body-left ul li{
+	height:50px;
+	color: white;
+	border-bottom: 1px solid rgb(27,40,54);
+}
+#body-left ul li a{
+	display: block;
+	line-height: 50px;
+}

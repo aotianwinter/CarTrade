@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="CarTrade" namespace="/" extends="struts-default,json-default">
+		<action name="car_*" class="carAction" method="{1}">
+			<result name="list" >/car.jsp</result>
+			<result name="success" type="redirectAction">car_list</result>
+			<result name="edit" >/car_edit.jsp</result>
+			<result name="query" >/car_query.jsp</result>
+		</action>
+		
+		<action name="customer_*" class="customerAction" method="{1}">
+			<result name="list" >/customer.jsp</result>
+			<result name="success" type="redirectAction">customer_list</result>
+			<result name="edit" >/customer_edit.jsp</result>
+			<result name="query" >/customer_query.jsp</result>
+		</action>
+		
+		<action name="order_*" class="orderAction" method="{1}">
+			<result name="list" >/order.jsp</result>
+			<result name="success" type="redirectAction">order_list</result>
+			<result name="edit" >/order_edit.jsp</result>
+			<result name="query">/order_query.jsp</result>
+			<result name="details">/order_details.jsp</result>
+			
+			<result name="result" type="json">  
+                    <param name="root">data</param>  
+            </result> 
+       
+		</action>
+		
+		<action name="user_*" class="userAction" method="{1}">
+			<result name="success">/order.jsp</result>
+			<result name="error">/Tesla.html</result>
+		</action>
+		
+	</package>
+</struts>

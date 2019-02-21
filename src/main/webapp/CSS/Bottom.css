@@ -1,0 +1,22 @@
+/* CSS Document */
+div#Bottom{}
+div#Bottom-1{
+	}
+div#Bottom-2{
+	width:1000px;
+	margin:15px auto;
+	color:rgb(102,102,102);
+	font-size:12px;
+	}
+div#Bottom-3{
+	height:70px;
+	border-top:solid rgb(204,204,204) 1px;
+	background:rgb(247,247,247);
+	}
+div#Totop{
+	height:34px;
+	width:34px;
+	position:fixed;
+	bottom:80px;
+	right:0px;
+	}

@@ -1,0 +1,47 @@
+/* CSS Document */
+body{
+	font-family:微软雅黑;
+	margin:0px;
+	min-width:1000px;
+	}
+div#contain{
+	background:black;
+	height:50px;
+	}
+div#menu{
+	height:50px;
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+	}
+div#Tesla{
+	position:absolute;
+	top:5px;
+	left:0;
+	}
+div#menu-left{
+	position:absolute;
+	top:13px;
+	left:150px;
+	}
+div#menu-right{
+	position:absolute;
+	top:13px;
+	right:0;
+	}
+span.menu-left{
+	margin-right:20px;
+	}
+span.menu-right{
+	margin-left:20px;
+	}
+a{
+	color:white;
+	text-decoration:none;
+	}
+a.menu-left{
+	font-size:14px;
+	}
+a.menu-right{
+	font-size:8px;
+	}

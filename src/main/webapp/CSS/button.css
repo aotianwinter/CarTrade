@@ -1,0 +1,23 @@
+/* CSS Document */
+div.button{
+	font-size:12px;
+	height:40px;
+	width:360px;
+	margin:60px auto;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	}
+div.button-left{
+	height:40px;
+	width:175px;	
+	background:#C9000C;
+	float:left;
+	}
+div.button-right{
+	height:40px;
+	width:175px;
+	background:#292929;
+	float:right;
+	}
+	

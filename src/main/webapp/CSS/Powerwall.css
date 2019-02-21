@@ -1,0 +1,276 @@
+/* CSS Document */
+h1{
+	margin:0;
+	text-align:center;
+}
+div#one{
+	height:528px;
+	background:url(../img/PowerWall/2.jpg) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+	color:white;
+	}
+div#one-content{
+	padding:30px 40px;
+	width:340px;
+	background:rgba(0,0,0,0.80) no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:130px;
+	right:80px;
+	}
+div#two{
+	height:505px;
+	background:rgb(53,69,76);
+	color:white;
+	font-size:12px;
+	padding-top:70px;
+	padding-buttom:85px;
+	}
+div#two-top{
+	width:605px;
+	margin:0 auto;
+	}
+div#two-end{
+	width:900px;
+	margin:60px auto;
+	}
+div#two-end-one{
+	width:200px;
+	float:left;
+	margin-right:100px;
+	}
+div#two-end-two{
+	width:200px;
+	float:left;
+	margin-left:50px;
+	margin-right:50px;
+	}
+div#two-end-three{
+	width:200px;
+	float:left;
+	margin-left:100px;
+	}
+div#two-end-one-img{
+	width:100px;
+	height:100px;
+	background:url(../img/PowerWall/2.1.svg) no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	}	
+div#two-end-two-img{
+	width:100px;
+	height:100px;
+	background:url(../img/PowerWall/2.2.svg) no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	}
+div#two-end-three-img{
+	width:100px;
+	height:100px;
+	background:url(../img/PowerWall/2.3.svg) no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	}
+div#two-end-one-p{
+	margin-top:50px;
+	}
+div#two-end-two-p{
+	margin-top:50px;
+	}
+div#two-end-three-p{
+	margin-top:50px;
+	}
+div#three{
+	padding-top:30px;
+	background:rgb(217,217,217);
+	}
+div#three-top{
+	text-align:center;
+	}
+div#three-img{
+	height:800px;
+	margin:50px auto;
+	background:url(../img/PowerWall/3.png) no-repeat;
+	background-size:100% 100%;
+	}
+div#three-end{
+	width:1000px;
+	height:300px;
+	margin:0 auto;
+	}
+div#three-end-one{
+	width:200px;
+	margin-left:25px;
+	margin-right:25px;
+	float:left;
+	}
+div#three-end-two{
+	width:200px;
+	margin-left:25px;
+	margin-right:25px;
+	float:left;
+	}
+div#three-end-three{
+	width:200px;
+	margin-left:25px;
+	margin-right:25px;
+	float:left;
+	}
+div#three-end-four{
+	width:200px;
+	margin-left:25px;
+	margin-right:25px;
+	float:left;
+	}
+div#three-end-one-img{
+	width:70px;
+	height:70px;
+	background:url(../img/PowerWall/3.1.svg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	}
+div#three-end-two-img{
+	width:70px;
+	height:70px;
+	background:url(../img/PowerWall/3.2.svg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	}
+div#three-end-three-img{
+	width:70px;
+	height:70px;
+	background:url(../img/PowerWall/3.3.svg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	}
+div#three-end-four-img{
+	width:70px;
+	height:70px;
+	background:url(../img/PowerWall/3.4.svg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	}
+div#four{
+	padding-top:50px;
+	background:rgb(250,250,250);
+	}
+div#four-img{
+	height:800px;
+	margin:0 auto 50px;
+	background:url(../img/PowerWall/4.png) no-repeat;
+	background-size:100% 100%;
+	}
+div#four-end{
+	width:900px;
+	height:300px;
+	margin:0 auto;
+	}
+div#four-end-one{
+	width:200px;
+	margin-right:75px;
+	float:left;
+	}
+div#four-end-two{
+	width:200px;
+	margin-right:75px;
+	margin-left:75px;
+	float:left;
+	}
+div#four-end-three{
+	width:200px;
+	margin-left:75px;
+	float:left;
+	}
+div#four-end-one-img{
+	width:70px;
+	height:70px;
+	background:url(../img/PowerWall/4.1.svg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	}
+div#four-end-two-img{
+	width:70px;
+	height:70px;
+	background:url(../img/PowerWall/4.2.svg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	}
+div#four-end-three-img{
+	width:70px;
+	height:70px;
+	background:url(../img/PowerWall/4.3.svg) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	}
+div.p-top{
+	margin-top:40px;
+	}
+div#five{
+	height:600px;
+	background:rgb(69,71,73);
+	padding-top:50px;
+	color:white;
+	}
+div#five-h{
+	color:white;
+	}
+div#five-body{
+	width:1000px;
+	margin:0 auto;
+	padding-top:50px;
+	}
+div#five-body-img{
+	height:474px;
+	width:415px;
+	background:url(../img/PowerWall/5.png) no-repeat;
+	float:left;
+	padding-right:100px;
+	}
+div#five-right-one{
+	width:240px;
+	float:left;
+	}
+div#five-right-two{
+	width:240px;
+	float:left;
+	}
+div#six{
+	height:120px;
+	background:rgb(96,98,99);
+	font-size:14px;
+	text-align:center;
+	color:white;
+	padding-top:50px;
+	}
+div#six a{
+	padding:10px 60px;
+	background:rgb(127,129,129);
+	border:1px solid rgb(127,129,129);
+	}
+div#six a:hover{
+	background:rgb(48,49,49);
+	border:1px solid white;
+	}
+div#six p{
+	margin-top:40px;
+	}
+div#seven{
+	height:130px;
+	background:rgb(51,51,51);
+	padding-top:50px;
+	}
+div#seven-contain{
+	width:580px;
+	margin:0 auto;
+	color:white;
+	font-size:14px;
+	}
+div#seven-contain h2{
+	margin-top:0;
+	margin-bottom:20px;
+	text-align:center;
+	}
+div#seven-contain p{
+	margin:0;
+	}

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-6-12 9:55:16 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.aotian.domain.Customer" table="CUSTOMER">
+        <id name="customerId" type="java.lang.Integer">
+            <column name="CUSTOMERID" />
+            <generator class="native" />
+        </id>
+        <property name="customerName" type="java.lang.String">
+            <column name="CUSTOMERNAME" />
+        </property>
+        <property name="customerAge" type="java.lang.Integer">
+            <column name="CUSTOMERAGE" />
+        </property>
+        <property name="customerSex" type="java.lang.String">
+            <column name="CUSTOMERSEX" />
+        </property>
+        <property name="customerTel" type="java.lang.String">
+            <column name="CUSTOMERTEL" />
+        </property>
+        <property name="customerAdress" type="java.lang.String">
+            <column name="CUSTOMERADRESS" />
+        </property>
+        <property name="customerCreateTime" type="java.util.Date">
+            <column name="CUSTOMERCREATETIME" />
+        </property>
+        <property name="customerLastEditTime" type="java.util.Date">
+            <column name="CUSTOMERLASTEDITTIME" />
+        </property>
+    </class>
+</hibernate-mapping>

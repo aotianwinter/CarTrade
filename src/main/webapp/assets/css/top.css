@@ -1,0 +1,38 @@
+body {
+  	margin: 0;
+	font-family:微软雅黑;
+}
+#top{
+	height:60px;
+	padding: 0 20px;
+	background:rgb(9,25,42);
+}
+#menu-left{
+	float: left;
+	}
+#menu-left a{
+	font-size: 30px;
+	line-height: 60px;
+}
+#menu-right{
+	height: 60px;
+	width: 250px;
+	float: right;
+	}
+a{
+	color:white;
+	text-decoration:none;
+	}
+#menu-right span{
+	display: block;
+	width: 60px;
+	height: 60px;
+	float: left;
+	text-align: center;
+}
+#menu-right span:hover{
+	background: rgb(34,80,129);
+}
+#menu-right span a img{
+	padding: 22px 22px;
+}
